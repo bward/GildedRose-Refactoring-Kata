@@ -24,8 +24,8 @@
       <file leaf-file-name="TexttestFixture.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TexttestFixture.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="66" lean-forward="false" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
+            <state relative-caret-position="233">
+              <caret line="19" column="40" lean-forward="false" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -34,35 +34,9 @@
       <file leaf-file-name="gilded_rose.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/gilded_rose.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-              <folding>
-                <marker date="1510827895240" expanded="true" signature="11:132" ph="{...}" />
-                <marker date="1510827895240" expanded="true" signature="49:130" ph="{...}" />
-                <marker date="1510827895240" expanded="true" signature="145:2006" ph="{...}" />
-                <marker date="1510827895240" expanded="true" signature="170:199" ph="{...}" />
-                <marker date="1510827895240" expanded="true" signature="218:2004" ph="{...}" />
-                <marker date="1510827895240" expanded="true" signature="268:1976" ph="{...}" />
-                <marker date="1510827895240" expanded="true" signature="384:587" ph="{...}" />
-                <marker date="1510827895240" expanded="true" signature="425:579" ph="{...}" />
-                <marker date="1510827895240" expanded="true" signature="493:569" ph="{...}" />
-                <marker date="1510827895240" expanded="true" signature="593:1189" ph="{...}" />
-                <marker date="1510827895240" expanded="true" signature="635:1181" ph="{...}" />
-                <marker date="1510827895240" expanded="true" signature="779:1171" ph="{...}" />
-                <marker date="1510827895240" expanded="true" signature="824:970" ph="{...}" />
-                <marker date="1510827895240" expanded="true" signature="872:956" ph="{...}" />
-                <marker date="1510827895240" expanded="true" signature="1013:1159" ph="{...}" />
-                <marker date="1510827895240" expanded="true" signature="1061:1145" ph="{...}" />
-                <marker date="1510827895240" expanded="true" signature="1252:1318" ph="{...}" />
-                <marker date="1510827895240" expanded="true" signature="1355:1970" ph="{...}" />
-                <marker date="1510827895240" expanded="true" signature="1404:1826" ph="{...}" />
-                <marker date="1510827895240" expanded="true" signature="1487:1714" ph="{...}" />
-                <marker date="1510827895240" expanded="true" signature="1532:1702" ph="{...}" />
-                <marker date="1510827895240" expanded="true" signature="1604:1688" ph="{...}" />
-                <marker date="1510827895240" expanded="true" signature="1720:1816" ph="{...}" />
-                <marker date="1510827895240" expanded="true" signature="1832:1962" ph="{...}" />
-                <marker date="1510827895240" expanded="true" signature="1876:1952" ph="{...}" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -70,8 +44,8 @@
       <file leaf-file-name="gilded_rose_spec.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/gilded_rose_spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="52" column="37" lean-forward="false" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+            <state relative-caret-position="862">
+              <caret line="58" column="37" lean-forward="false" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -88,6 +62,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/spec/gilded_rose_spec.js" />
+        <option value="$PROJECT_DIR$/src/gilded_rose.js" />
       </list>
     </option>
   </component>
@@ -265,12 +240,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510828988205</updated>
-      <workItem from="1510828989381" duration="3394000" />
+      <workItem from="1510828989381" duration="6195000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3394000" />
+    <option name="totallyTimeSpent" value="6195000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -323,6 +298,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spec/gilded_rose_spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="862">
+          <caret line="58" column="37" lean-forward="false" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SpecRunner.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -333,51 +316,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TexttestFixture.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="66" lean-forward="false" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/gilded_rose_spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="37" lean-forward="false" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+        <state relative-caret-position="233">
+          <caret line="19" column="40" lean-forward="false" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gilded_rose.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-          <folding>
-            <marker date="1510827895240" expanded="true" signature="11:132" ph="{...}" />
-            <marker date="1510827895240" expanded="true" signature="49:130" ph="{...}" />
-            <marker date="1510827895240" expanded="true" signature="145:2006" ph="{...}" />
-            <marker date="1510827895240" expanded="true" signature="170:199" ph="{...}" />
-            <marker date="1510827895240" expanded="true" signature="218:2004" ph="{...}" />
-            <marker date="1510827895240" expanded="true" signature="268:1976" ph="{...}" />
-            <marker date="1510827895240" expanded="true" signature="384:587" ph="{...}" />
-            <marker date="1510827895240" expanded="true" signature="425:579" ph="{...}" />
-            <marker date="1510827895240" expanded="true" signature="493:569" ph="{...}" />
-            <marker date="1510827895240" expanded="true" signature="593:1189" ph="{...}" />
-            <marker date="1510827895240" expanded="true" signature="635:1181" ph="{...}" />
-            <marker date="1510827895240" expanded="true" signature="779:1171" ph="{...}" />
-            <marker date="1510827895240" expanded="true" signature="824:970" ph="{...}" />
-            <marker date="1510827895240" expanded="true" signature="872:956" ph="{...}" />
-            <marker date="1510827895240" expanded="true" signature="1013:1159" ph="{...}" />
-            <marker date="1510827895240" expanded="true" signature="1061:1145" ph="{...}" />
-            <marker date="1510827895240" expanded="true" signature="1252:1318" ph="{...}" />
-            <marker date="1510827895240" expanded="true" signature="1355:1970" ph="{...}" />
-            <marker date="1510827895240" expanded="true" signature="1404:1826" ph="{...}" />
-            <marker date="1510827895240" expanded="true" signature="1487:1714" ph="{...}" />
-            <marker date="1510827895240" expanded="true" signature="1532:1702" ph="{...}" />
-            <marker date="1510827895240" expanded="true" signature="1604:1688" ph="{...}" />
-            <marker date="1510827895240" expanded="true" signature="1720:1816" ph="{...}" />
-            <marker date="1510827895240" expanded="true" signature="1832:1962" ph="{...}" />
-            <marker date="1510827895240" expanded="true" signature="1876:1952" ph="{...}" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>

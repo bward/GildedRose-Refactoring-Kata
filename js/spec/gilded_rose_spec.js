@@ -15,7 +15,7 @@ describe("Gilded Rose", function() {
   it("Brie increases in quality with age", function() {
     const gildedRose = new Shop([ new Item("Aged Brie", 5, 10) ]);
     const items = gildedRose.updateQuality();
-    expect(items[0].quality).toBeGreaterThan(5);
+    expect(items[0].quality).toBeGreaterThan(10);
   });
 
   it("Quality is never more than 50", function() {
@@ -51,5 +51,11 @@ describe("Gilded Rose", function() {
     expect(items[0].quality).toEqual(1);
     expect(items[1].quality).toEqual(2);
     expect(items[2].quality).toEqual(3);
+  });
+
+  it("Conjured items degrade faster", function () {
+    const gildedRose = new Shop([ new Item("Conjured Aged Brie", 0, 4) ]);
+    const items = gildedRose.updateQuality();
+    expect(items[0].quality).toEqual(8);
   });
 });
