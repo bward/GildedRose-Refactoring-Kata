@@ -1,13 +1,16 @@
+const Shop = gildedRoseLibrary.Shop;
+const Item = gildedRoseLibrary.Item;
+
 describe("Gilded Rose", function() {
 
   it("Sulfuras never decreases in Quality", function() {
-    const gildedRose = new Shop([ new Item("Sulfuras, Hand of Ragnaros", 5, 10) ]);
+    const gildedRose = new Shop([ new Item("Sulfuras, Hand of Ragnaros", 5, 80) ]);
     const items = gildedRose.updateQuality();
-    expect(items[0].quality).toEqual(10);
+    expect(items[0].quality).toEqual(80);
   });
 
   it("Sulfuras never needs to be sold", function() {
-      const gildedRose = new Shop([ new Item("Sulfuras, Hand of Ragnaros", 5, 10) ]);
+      const gildedRose = new Shop([ new Item("Sulfuras, Hand of Ragnaros", 5, 80) ]);
       const items = gildedRose.updateQuality();
       expect(items[0].sellIn).toEqual(5);
   });
@@ -44,7 +47,7 @@ describe("Gilded Rose", function() {
 
 
   it("Tickets increase in value faster when the concert is near", function () {
-    const gildedRose = new Shop([ new Item("Backstage passes to a TAFKAL80ETC concert", 11, 0),
+    const gildedRose = new Shop([ new Item("Backstage passes to a TAFKAL80ETC concert", 12, 0),
                                   new Item("Backstage passes to a TAFKAL80ETC concert", 7, 0),
                                   new Item("Backstage passes to a TAFKAL80ETC concert", 3, 0)]);
     const items = gildedRose.updateQuality();
